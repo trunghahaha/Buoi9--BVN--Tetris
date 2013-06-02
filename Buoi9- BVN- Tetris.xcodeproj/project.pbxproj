@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5CBF53175937A4005D60CA /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5CBF52175937A4005D60CA /* Block.m */; };
 		EB853E4617592B410009CA74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB853E4517592B410009CA74 /* UIKit.framework */; };
 		EB853E4817592B410009CA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB853E4717592B410009CA74 /* Foundation.framework */; };
 		EB853E4A17592B410009CA74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB853E4917592B410009CA74 /* CoreGraphics.framework */; };
@@ -16,9 +17,30 @@
 		EB853E5817592B410009CA74 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB853E5717592B410009CA74 /* Default.png */; };
 		EB853E5A17592B420009CA74 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB853E5917592B420009CA74 /* Default@2x.png */; };
 		EB853E5C17592B420009CA74 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB853E5B17592B420009CA74 /* Default-568h@2x.png */; };
+		EB853E6417592D810009CA74 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = EB853E6317592D810009CA74 /* green.png */; };
+		EB853E6A17592E350009CA74 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = EB853E6917592E350009CA74 /* Box.m */; };
+		EB853E6E17592F9C0009CA74 /* MainGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB853E6C17592F9C0009CA74 /* MainGameView.m */; };
+		EB853E6F17592F9C0009CA74 /* MainGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB853E6D17592F9C0009CA74 /* MainGameView.xib */; };
+		EBDF86A61759FE6C00FCCF48 /* MainGameBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDF86A51759FE6C00FCCF48 /* MainGameBG.png */; };
+		EBDF86A8175A001000FCCF48 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDF86A7175A001000FCCF48 /* doc.png */; };
+		EBE23C04175A7E200062AAC9 /* doc2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE23C03175A7E200062AAC9 /* doc2.png */; };
+		EBFAF563175B83CB00554E02 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF561175B83CB00554E02 /* MenuView.m */; };
+		EBFAF564175B83CB00554E02 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF562175B83CB00554E02 /* MenuView.xib */; };
+		EBFAF568175B83EE00554E02 /* EndGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF566175B83EE00554E02 /* EndGameView.m */; };
+		EBFAF569175B83EE00554E02 /* EndGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF567175B83EE00554E02 /* EndGameView.xib */; };
+		EBFAF56B175B852300554E02 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF56A175B852300554E02 /* gameover.png */; };
+		EBFAF56D175B86AF00554E02 /* tetris.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF56C175B86AF00554E02 /* tetris.png */; };
+		EBFAF570175B980300554E02 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF56F175B980300554E02 /* Score.m */; };
+		EBFAF576175BA55500554E02 /* cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF571175BA55500554E02 /* cyan.png */; };
+		EBFAF577175BA55500554E02 /* magenta.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF572175BA55500554E02 /* magenta.png */; };
+		EBFAF578175BA55500554E02 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF573175BA55500554E02 /* orange.png */; };
+		EBFAF579175BA55500554E02 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF574175BA55500554E02 /* red.png */; };
+		EBFAF57A175BA55500554E02 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF575175BA55500554E02 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB5CBF51175937A4005D60CA /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		EB5CBF52175937A4005D60CA /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
 		EB853E4217592B410009CA74 /* Buoi9- BVN- Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buoi9- BVN- Tetris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB853E4517592B410009CA74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB853E4717592B410009CA74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +54,31 @@
 		EB853E5717592B410009CA74 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EB853E5917592B420009CA74 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EB853E5B17592B420009CA74 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB853E6317592D810009CA74 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		EB853E6817592E350009CA74 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		EB853E6917592E350009CA74 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		EB853E6B17592F9C0009CA74 /* MainGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGameView.h; sourceTree = "<group>"; };
+		EB853E6C17592F9C0009CA74 /* MainGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGameView.m; sourceTree = "<group>"; };
+		EB853E6D17592F9C0009CA74 /* MainGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainGameView.xib; sourceTree = "<group>"; };
+		EBDF86A51759FE6C00FCCF48 /* MainGameBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainGameBG.png; sourceTree = "<group>"; };
+		EBDF86A7175A001000FCCF48 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+		EBE23C03175A7E200062AAC9 /* doc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc2.png; sourceTree = "<group>"; };
+		EBF0A9DD1759C8DA00BE2EBB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EBFAF560175B83CB00554E02 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		EBFAF561175B83CB00554E02 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		EBFAF562175B83CB00554E02 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		EBFAF565175B83EE00554E02 /* EndGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGameView.h; sourceTree = "<group>"; };
+		EBFAF566175B83EE00554E02 /* EndGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGameView.m; sourceTree = "<group>"; };
+		EBFAF567175B83EE00554E02 /* EndGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndGameView.xib; sourceTree = "<group>"; };
+		EBFAF56A175B852300554E02 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		EBFAF56C175B86AF00554E02 /* tetris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tetris.png; sourceTree = "<group>"; };
+		EBFAF56E175B980200554E02 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		EBFAF56F175B980300554E02 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		EBFAF571175BA55500554E02 /* cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyan.png; sourceTree = "<group>"; };
+		EBFAF572175BA55500554E02 /* magenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magenta.png; sourceTree = "<group>"; };
+		EBFAF573175BA55500554E02 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		EBFAF574175BA55500554E02 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		EBFAF575175BA55500554E02 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +125,26 @@
 		EB853E4B17592B410009CA74 /* Buoi9- BVN- Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				EBF0A9DD1759C8DA00BE2EBB /* config.h */,
+				EB853E6217592B4B0009CA74 /* Imges */,
 				EB853E5417592B410009CA74 /* AppDelegate.h */,
 				EB853E5517592B410009CA74 /* AppDelegate.m */,
 				EB853E4C17592B410009CA74 /* Supporting Files */,
+				EB853E6817592E350009CA74 /* Box.h */,
+				EB853E6917592E350009CA74 /* Box.m */,
+				EB853E6B17592F9C0009CA74 /* MainGameView.h */,
+				EB853E6C17592F9C0009CA74 /* MainGameView.m */,
+				EB853E6D17592F9C0009CA74 /* MainGameView.xib */,
+				EB5CBF51175937A4005D60CA /* Block.h */,
+				EB5CBF52175937A4005D60CA /* Block.m */,
+				EBFAF560175B83CB00554E02 /* MenuView.h */,
+				EBFAF561175B83CB00554E02 /* MenuView.m */,
+				EBFAF562175B83CB00554E02 /* MenuView.xib */,
+				EBFAF565175B83EE00554E02 /* EndGameView.h */,
+				EBFAF566175B83EE00554E02 /* EndGameView.m */,
+				EBFAF567175B83EE00554E02 /* EndGameView.xib */,
+				EBFAF56E175B980200554E02 /* Score.h */,
+				EBFAF56F175B980300554E02 /* Score.m */,
 			);
 			path = "Buoi9- BVN- Tetris";
 			sourceTree = "<group>";
@@ -97,6 +161,24 @@
 				EB853E5B17592B420009CA74 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB853E6217592B4B0009CA74 /* Imges */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAF571175BA55500554E02 /* cyan.png */,
+				EBFAF572175BA55500554E02 /* magenta.png */,
+				EBFAF573175BA55500554E02 /* orange.png */,
+				EBFAF574175BA55500554E02 /* red.png */,
+				EBFAF575175BA55500554E02 /* yellow.png */,
+				EBFAF56C175B86AF00554E02 /* tetris.png */,
+				EBFAF56A175B852300554E02 /* gameover.png */,
+				EBE23C03175A7E200062AAC9 /* doc2.png */,
+				EBDF86A7175A001000FCCF48 /* doc.png */,
+				EBDF86A51759FE6C00FCCF48 /* MainGameBG.png */,
+				EB853E6317592D810009CA74 /* green.png */,
+			);
+			name = Imges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +236,20 @@
 				EB853E5817592B410009CA74 /* Default.png in Resources */,
 				EB853E5A17592B420009CA74 /* Default@2x.png in Resources */,
 				EB853E5C17592B420009CA74 /* Default-568h@2x.png in Resources */,
+				EB853E6417592D810009CA74 /* green.png in Resources */,
+				EB853E6F17592F9C0009CA74 /* MainGameView.xib in Resources */,
+				EBDF86A61759FE6C00FCCF48 /* MainGameBG.png in Resources */,
+				EBDF86A8175A001000FCCF48 /* doc.png in Resources */,
+				EBE23C04175A7E200062AAC9 /* doc2.png in Resources */,
+				EBFAF564175B83CB00554E02 /* MenuView.xib in Resources */,
+				EBFAF569175B83EE00554E02 /* EndGameView.xib in Resources */,
+				EBFAF56B175B852300554E02 /* gameover.png in Resources */,
+				EBFAF56D175B86AF00554E02 /* tetris.png in Resources */,
+				EBFAF576175BA55500554E02 /* cyan.png in Resources */,
+				EBFAF577175BA55500554E02 /* magenta.png in Resources */,
+				EBFAF578175BA55500554E02 /* orange.png in Resources */,
+				EBFAF579175BA55500554E02 /* red.png in Resources */,
+				EBFAF57A175BA55500554E02 /* yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +262,12 @@
 			files = (
 				EB853E5217592B410009CA74 /* main.m in Sources */,
 				EB853E5617592B410009CA74 /* AppDelegate.m in Sources */,
+				EB853E6A17592E350009CA74 /* Box.m in Sources */,
+				EB853E6E17592F9C0009CA74 /* MainGameView.m in Sources */,
+				EB5CBF53175937A4005D60CA /* Block.m in Sources */,
+				EBFAF563175B83CB00554E02 /* MenuView.m in Sources */,
+				EBFAF568175B83EE00554E02 /* EndGameView.m in Sources */,
+				EBFAF570175B980300554E02 /* Score.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +384,7 @@
 				EB853E6117592B420009CA74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

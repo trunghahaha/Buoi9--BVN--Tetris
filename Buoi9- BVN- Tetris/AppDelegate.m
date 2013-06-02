@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainGameView.h"
+#import "MenuView.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +16,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MenuView *menuView = [[MenuView alloc] initWithNibName:nil bundle:NULL];
+    UINavigationController *naviView = [[UINavigationController alloc] initWithRootViewController:menuView];
+    [naviView setNavigationBarHidden:YES];
+    self.window.rootViewController = naviView;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
